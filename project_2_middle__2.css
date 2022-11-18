@@ -1,0 +1,87 @@
+
+.middle2__img{
+    display: none;
+}
+
+.contact_title{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+}
+
+.middle2__contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.middle2__contact p{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.middle2__contact input{
+    min-width: 300px;
+    min-height: 45px;
+    margin-left: 5px;
+    font-size:17px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.middle2__contact .contact_message_input{
+    min-height: 170px;
+    display: block;
+    padding-bottom: 200px;
+}
+
+.middle2 form{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    right: 10px;
+    padding-bottom: 10px;
+}
+
+.middle2__send{
+    background-color: black;
+    color: white;
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media  screen and (min-width: 930px) {
+    .middle2__img{
+        display: flex;
+        max-width: 400px;
+        position: absolute;
+        padding: 40px 30px 40px 0;
+        margin-top: -600px;
+        right: 0;
+    }
+    .contact_title{
+        justify-content: left;
+    }
+    .middle2__contact input{
+        max-width: 500px;
+        max-height: 45px;
+    }
+    .middle2__contact .contact_message_input{
+        min-height: 200px;
+        padding-top: 15px;
+    }
+
+    .middle2 form{
+        justify-content: left;
+        left: 10px;
+    }
+}

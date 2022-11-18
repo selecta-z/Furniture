@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel = 'stylesheet' href="Header_css_project_2.css" type="text/css">
+    <link rel = 'stylesheet' href="project_2_middle__1.css" type="text/css">
+    <link rel = 'stylesheet' href="project_2_middle__2.css" type="text/css">
+    <link rel = 'stylesheet' href="project_2_footer.css" type="text/css">
+</head>
+<body>
+
+    <div class="section1" id="section1">
+        <section class="header">
+            <div class="menu">
+                <div class="menu__logo">HOME_H</div>
+                <div class="menu__navigation">
+                    <ul class="menu__home">
+                        <div class="menu__nav"><a href="#section1" data-after="Home">Home</a></div>
+                        <div class="menu__nav"><a href="#section2" data-after="About us">About us</a></div>
+                        <div class="menu__nav"><a href="#section3" data-after="Furniture">Furniture</a></div>
+                        <div class="menu__nav"><a href="#section4" data-after="Contact us">Contact us</a></div>
+                    </ul>
+                    <div class="menu__LogSing">
+                        <form action="HTML_Log-in_Project_2.html">
+                            <button class="menu__log">Log in</button>
+                        </form>
+                        <form action="HTML_Sing-up_Project_2.html">
+                            <button class="menu__sing">Sign up</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu__container">
+                    <div class="menu__burger">
+                        <div class="menu__burger-lines"></div>
+                    </div>
+                </div>
+                <p class="menu__title">Everyone Loves To Welcome A<br> Good Furniture</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="section2" id="section2">
+        <div class="middle1">
+            <div class="middle1__par">
+                <p class="middle1__title">Who we are</p>
+                <p class="middle1__subTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper accumsan turpis quis quis at. Nec, nisi dis duis urna, elit justo, 
+                    euismod. Ultricies fermentum nibh in ut quis lacus sollicitudin proin. Eu sit 
+                    enim ullamcorper nisl id est. A pulvinar ut fringilla vulputate feugiat lobortis 
+                    phasellus mattis dignissim. Dapibus sed quam venenatis platea. Et pharetra,
+                    convallis nec volutpat. Sed id et sed diam. Diam leo ipsum, urna in lorem 
+                    amet euismod.</p>
+            </div>
+            
+            <div class="middle1__images">
+                <div class="middle1__img1">
+                    <img src="images/chair_1.png">
+                    <p class="img1__description_1">Light brown<br> 
+                        chair with<br> wooden legs<br><br> <span>$100</span>
+                    </p>
+                </div>
+                <div class="middle1__img2">
+                    <img src="images/chair_2.png">
+                    <p class="img1__description_2">Black chair with long<br> 
+                        legs<br><br> <span>$500</span>
+                    </p>
+                </div>
+                <div class="middle1__img3">
+                    <img src="images/chair_3.png">
+                    <p class="img1__description_3">White chair with<br> spiral 
+                        design legs<br><br> <span>$1000</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section3" id="section3">
+        <div class="middle2">
+            <div class="middle2__contact">
+                <div class="contact_title">Drop a message</div>
+
+                <p class="contact_name">Name</p>
+                <input placeholder="Input your name" class="contact_name_input">
+
+                <p class="contact_mobile">Mobile no.</p>
+                <input placeholder="Input your mobile number" class="contact_mobile_input">
+
+                <p class="contact_message">Message</p>
+                <input placeholder="Input your message" class="contact_message_input">
+            </div>
+            <form action="#">
+                <button class="middle2__send">Send</button>
+            </form>
+            <div class="middle2__img">
+                <img src="images/phone.jfif">
+            </div>
+        </div>
+    </div>
+
+    <div class="section4" id="section4">
+        <div class="footer">
+            <div class="footer__AllBlocks">
+                <div class="footer__block1_2">
+                    <div class="footer__block1 block">
+                        <p><a href="">OUR COMPANY</a></p>
+                        <p><a href="">About us</a></p>
+                        <p><a href="">Become a Partner</a></p>
+                        <p><a href="">Contact us</a></p>
+                    </div>
+
+                    <div class="footer__block2 block">
+                        <p><a href="">LEARN MORE</a></p>
+                        <p><a href="">How it works</a></p>
+                        <p><a href="">FAQs</a></p>
+                        <p><a href=""> Terms and Conditions</a></p>
+                        <p><a href=""> Private Policy</a></p>
+                    </div>
+                </div>
+
+                <div class="footer__block3 block">
+                    <p><a href="#">SUBSCRIBE</a></p>
+                    <input placeholder="Input your email address" class="contact_message_input">
+                    <form action="#">
+                        <button class="middle2__send footer__send">Send</button>
+                    </form>
+                </div>
+
+            </div>
+            
+                <div class="footer__btn">
+                    <div onclick="scrollToHeader()" class="footer__btn_ToHeader">
+                        <div class="footer__tringle"></div>
+                        <i class="fa-solid fa-triangle"></i>
+                    </div>
+                </div>
+
+            <div class="footer__BlackBlock">By using this website you accept 
+                our <span><a href="#">Terms</a></span> use and <span>
+                <a href="#">Private Policy</a></span>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="js_Project_2.js"></script>
+</body>
+</html>
